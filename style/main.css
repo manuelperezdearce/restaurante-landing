@@ -1,0 +1,125 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(221, 221, 221);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: red;
+    box-shadow: 0px 16px 20px rgb(150, 150, 150);
+
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+        max-width: 1200px;
+
+        article {
+            display: flex;
+            align-items: center;
+        }
+
+        nav {
+            a {
+                color: black;
+                margin-inline: 8px;
+            }
+        }
+    }
+}
+
+.a-logo {
+    height: auto;
+
+    img {
+        display: block;
+        width: 70px;
+    }
+}
+
+main {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: red;
+    box-shadow: 0px 16px 20px rgb(150, 150, 150);
+
+    section {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        max-width: 1200px;
+    }
+}
+
+.container {
+    background-color: white;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0px 16px 20px rgb(150, 150, 150);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-block: 16px;
+
+    h4 {
+        width: 100%;
+    }
+}
+
+.card {
+    width: 20%;
+    min-width: 280px;
+    margin: 8px;
+    border: 1px solid rgb(184, 182, 182);
+    border-radius: 16px;
+    box-shadow: 0px 8px 24px 4px rgb(150, 150, 150);
+    overflow: hidden;
+    transition-duration: 150ms;
+
+    &:hover {
+        box-shadow: 0px 16px 24px 4px rgb(150, 150, 150);
+        scale: 1.02;
+    }
+
+    img {
+        width: 100%;
+        display: block;
+    }
+
+    h5 {
+        padding: 8px;
+    }
+
+    p {
+        padding: 8px;
+        text-align: end;
+    }
+}
+
+@media (max-width: 700px) {
+    .card {
+        width: 100%;
+    }
+
+    footer {
+        height: auto;
+    }
+
+}
