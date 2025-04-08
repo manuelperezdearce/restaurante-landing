@@ -19,7 +19,7 @@ class platoSemana extends HTMLElement {
                     <p>La humita es un plato tradicional sudamericano, especialmente popular en países como Chile,  Argentina, Perú, Ecuador y Bolivia. Consiste principalmente en una preparación hecha con granos frescos de maíz choclo, los cuales se muelen hasta formar una pasta suave que luego se mezcla con ingredientes como cebolla, albahaca, manteca o aceite, leche y condimentos al gusto. <a href="https://es.wikipedia.org/wiki/Humita" target="_blank" >Ver más</a></p>
                     
                     <audio controls>
-                        <source src="/public/humita-audio.mp3" type="audio/mpeg">
+                        <source src="./public/humita-audio.mp3" type="audio/mpeg">
                         Tu navegador no soporta el elemento de audio.
                     </audio>
                 </article>
