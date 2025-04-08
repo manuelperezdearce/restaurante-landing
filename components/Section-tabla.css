@@ -19,7 +19,7 @@
 
 td {
     &>* {
-        margin-inline: 2rem;
+        margin-inline: 0.5rem;
 
     }
 
@@ -27,7 +27,7 @@ td {
 
 img {
     border: 1px solid #cccccc52;
-    width: 150px;
+    width: 100px;
     aspect-ratio: 1/1;
     object-fit: cover;
     object-position: top;

@@ -1,4 +1,3 @@
-import "/components/MenuCard.js";
 
 class customSection extends HTMLElement {
     constructor() {
@@ -9,7 +8,7 @@ class customSection extends HTMLElement {
 
         // Renderizar el título y un contenedor vacío mientras se cargan los datos
         shadow.innerHTML = `
-            <link rel="stylesheet" href="/components/Section-tabla.css">
+            <link rel="stylesheet" href="./components/Section-tabla.css">
             <section class="container">
                 <h4>${title}</h4>
                 <table class="table">
@@ -73,4 +72,4 @@ class customSection extends HTMLElement {
     }
 }
 
-customElements.define("custom-section", customSection);
+customElements.define("section-tabla", customSection);

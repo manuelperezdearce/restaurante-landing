@@ -1,4 +1,3 @@
-import "/components/MenuCard.js";
 
 class platoSemana extends HTMLElement {
     constructor() {
@@ -8,7 +7,7 @@ class platoSemana extends HTMLElement {
 
         // Renderizar el título y un contenedor vacío mientras se cargan los datos
         shadow.innerHTML = `
-            <link rel="stylesheet" href="/components/Section-plato-semana.css">
+            <link rel="stylesheet" href="./components/Section-plato-semana.css">
             <section class="container">
                 <h4>${title}</h4>
                 <article class="plato-semana">
