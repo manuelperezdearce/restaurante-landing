@@ -1,4 +1,4 @@
-import "/components/MenuCard.js";
+import "./MenuCard.js";
 
 class SectionCards extends HTMLElement {
     constructor() {
@@ -9,7 +9,7 @@ class SectionCards extends HTMLElement {
 
         // Renderizar el título y un contenedor vacío mientras se cargan los datos
         shadow.innerHTML = `
-            <link rel="stylesheet" href="/components/SectionCards.css">
+            <link rel="stylesheet" href="./components/SectionCards.css">
             <section class="container">
                 <h4>${title}</h4>
                 <ol class="cards-container">Cargando...</ol>

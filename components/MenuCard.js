@@ -11,7 +11,7 @@ class MenuCard extends HTMLElement {
 
         // Renderizar el contenido dinámicamente
         shadow.innerHTML = `
-            <link rel="stylesheet" href="/components/MenuCard.css">
+            <link rel="stylesheet" href="./components/MenuCard.css">
             <div class="card">
                 <img src="${img}" alt="${name}">
                 <div class="card-content">
