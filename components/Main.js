@@ -1,7 +1,7 @@
 import "./SectionCards.js";
-// import "./Section-tabla.js";
-// import "./Section-plato-semana.js";
-// import "./Section-promociones.js";
+import "./Section-tabla.js";
+import "./Section-plato-semana.js";
+import "./Section-promociones.js";
 
 class Main extends HTMLElement {
     constructor() {
