@@ -22,10 +22,10 @@
 - [X] El video debe mostrar la preparación de un plato típico o de la zona geográfica de origen.
 
 #### 2. Formulario de acceso a la página (Login)
-- [ ] Crear un formulario con los siguientes campos:
-  - [ ] Nombre de usuario (input tipo `text`)
-  - [ ] Contraseña (input tipo `password`)
-  - [ ] Botón para enviar el formulario (`submit`)
+- [x] Crear un formulario con los siguientes campos:
+  - [x] Nombre de usuario (input tipo `text`)
+  - [x] Contraseña (input tipo `password`)
+  - [x] Botón para enviar el formulario (`submit`)
 - [ ] Incluir una breve descripción de las etiquetas (`<form>`, `<input>`, etc.) y los atributos utilizados (`type`, `name`, `required`, etc.).
 
 #### 3. Formulario de registro de nuevos usuarios
