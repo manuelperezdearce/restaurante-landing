@@ -5,6 +5,7 @@ import "./../components/MenuCard.js"; // Importa el componente MenuCard
 import Home from "../views/Home.js";
 import About from "../views/About.js";
 import Login from "../views/Login.js";
+import Register from "../views/Register.js";
 
 const body = document.querySelector("#app"); // Selecciona el contenedor principal del body
 
@@ -12,7 +13,7 @@ const routes = {
     "/": Home,
     "/about": About,
     "/login": Login,
-    "/register": Login,
+    "/register": Register,
 };
 
 export function router() {

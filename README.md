@@ -26,18 +26,18 @@
   - [x] Nombre de usuario (input tipo `text`)
   - [x] Contraseña (input tipo `password`)
   - [x] Botón para enviar el formulario (`submit`)
-- [ ] Incluir una breve descripción de las etiquetas (`<form>`, `<input>`, etc.) y los atributos utilizados (`type`, `name`, `required`, etc.).
+- [x] Incluir una breve descripción de las etiquetas (`<form>`, `<input>`, etc.) y los atributos utilizados (`type`, `name`, `required`, etc.).
 
 #### 3. Formulario de registro de nuevos usuarios
-- [ ] Crear un formulario que solicite los siguientes datos:
-  - [ ] Nombre y Apellido (input tipo `text`)
-  - [ ] Tipo de documento (select con opciones: **DNI, RUT, Cédula, Pasaporte**)
-  - [ ] Número de documento (input tipo `text` o `number`)
-  - [ ] Fecha de nacimiento (input tipo `date`)
-  - [ ] Sexo (radio buttons: Masculino, Femenino)
-  - [ ] Correo electrónico (input tipo `email`)
-  - [ ] Teléfono móvil (input tipo `tel`)
-  - [ ] Comentarios (textarea)
-- [ ] Aplicar controles de entrada:
-  - [ ] Atributos como `required`, `maxlength`, `pattern`, etc.
-- [ ] Describir brevemente las etiquetas y atributos usados para cada campo.
+- [x] Crear un formulario que solicite los siguientes datos:
+  - [x] Nombre y Apellido (input tipo `text`)
+  - [x] Tipo de documento (select con opciones: **DNI, RUT, Cédula, Pasaporte**)
+  - [x] Número de documento (input tipo `text` o `number`)
+  - [x] Fecha de nacimiento (input tipo `date`)
+  - [x] Sexo (radio buttons: Masculino, Femenino)
+  - [x] Correo electrónico (input tipo `email`)
+  - [x] Teléfono móvil (input tipo `tel`)
+  - [x] Comentarios (textarea)
+- [x] Aplicar controles de entrada:
+  - [x] Atributos como `required`, `maxlength`, `pattern`, etc.
+- [x] Describir brevemente las etiquetas y atributos usados para cada campo.

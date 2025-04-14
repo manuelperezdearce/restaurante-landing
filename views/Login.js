@@ -1,4 +1,4 @@
-export default function About() {
+export default function Login() {
     return `
     <section class="container">
             <form class="form" id="login-form" action="/login" method="POST">
@@ -8,13 +8,15 @@ export default function About() {
                     <input type="email" id="email" name="email" required>
                 </div>
 
-<div class="form-group">
+                <div class="form-group">
                 <label for="password">Contraseña:</label>
                 <input type="password" id="password" name="password" required>
-</div>
+                </div>
                 <button type="submit">Ingresar</button> 
-                <p>¿No tienes cuenta? <a href="/register">Regístrate aquí</a></p>
+                <!-- <p>¿No tienes cuenta? <a href="/register">Regístrate aquí</a></p> -->
             </form>
             </section>
     `;
 }
+
+
