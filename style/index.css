@@ -1,4 +1,5 @@
 * {
+    font-family: "Roboto", sans-serif;
     padding: 0px;
     margin: 0px;
 }
@@ -25,6 +26,14 @@ header {
         article {
             display: flex;
             align-items: center;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-flow: row wrap;
+            list-style: none;
         }
 
         nav {
@@ -64,4 +73,22 @@ footer {
             margin-block: 1rem;
         }
     }
+}
+
+.container {
+    background-color: white;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0px 16px 20px rgb(150, 150, 150);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-block: 16px;
+
+    h4 {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 16px;
+    }
+
 }
