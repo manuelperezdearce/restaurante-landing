@@ -17,7 +17,7 @@ class Main extends HTMLElement {
 
         // Renderizar el contenido en el Shadow DOM
         shadow.innerHTML = `
-            <link rel="stylesheet" href="./components/Main.css">
+            <!-- <link rel="stylesheet" href="./components/Main.css"> -->
             <main class="Main">
                 ${childrenHTML}
             </main>
