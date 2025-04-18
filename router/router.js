@@ -1,43 +1,47 @@
 import Header from "./../components/Header.js";
 import Footer from "./../components/Footer.js";
-import "./../components/Main.js"; // Importa el componente Main
-import "./../components/MenuCard.js"; // Importa el componente MenuCard
 import Home from "../views/Home.js";
 import About from "../views/About.js";
 import Login from "../views/Login.js";
 import Register from "../views/Register.js";
 
-const body = document.querySelector("#app"); // Selecciona el contenedor principal del body
+const body = document.querySelector("#app");
 
 const routes = {
-    "/": Home,
-    "/about": About,
-    "/login": Login,
-    "/register": Register,
+    "#/": Home,
+    "#/about": About,
+    "#/login": Login,
+    "#/register": Register,
 };
 
 export function router() {
-    const path = window.location.pathname; // Obtiene la ruta actual
-    const view = routes[path] || Home; // Carga la vista correspondiente o la vista por defecto (Home)
+    // Obtén el hash actual o usa la raíz "#/"
+    const path = window.location.hash || "#/";
+    const view = routes[path] || Home;
 
-    // Renderiza el contenido completo del body
+    // Renderiza la vista correspondiente
     body.innerHTML = `
         ${Header()}
-        <custom-main role="main">
+        <main class="main">
             ${view()}
-        </custom-main>
+        </main>
         ${Footer()}
     `;
 
     // Agrega eventos a los enlaces de navegación
-    document.querySelectorAll("nav a").forEach((link) => {
+    document.querySelectorAll("nav ul li a").forEach((link) => {
         link.addEventListener("click", handleNavigation);
     });
 }
 
 export function handleNavigation(event) {
-    event.preventDefault();
-    const path = event.target.getAttribute("href"); // Obtiene la ruta del enlace
-    window.history.pushState({}, "", path); // Cambia la URL sin recargar
-    router(); // Renderiza la nueva vista
+    event.preventDefault(); // Evita el comportamiento predeterminado del navegador
+    const path = event.target.getAttribute("href"); // Obtén el valor del atributo href
+    window.location.hash = path; // Cambia el hash en la URL
 }
+
+// Escucha cambios en el hash
+window.addEventListener("hashchange", router);
+
+// Inicializa el enrutador al cargar la página
+window.addEventListener("DOMContentLoaded", router);

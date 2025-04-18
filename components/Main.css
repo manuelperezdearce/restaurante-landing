@@ -1,4 +1,5 @@
-.Main {
+/* FILE: ./components/Main.css */
+.main {
     max-width: 1200px;
     min-height: 100vh;
     margin-left: auto;
@@ -42,4 +43,10 @@
         margin-bottom: 16px;
     }
 
+}
+
+ul {
+    padding: 0;
+    margin: auto;
+    list-style: none;
 }

@@ -1,0 +1,25 @@
+.slider-container {
+    width: 100%;
+    margin-block: 2rem;
+    display: flex;
+
+
+
+}
+
+.slider {
+    overflow-x: auto;
+}
+
+
+
+.slides {
+    display: flex;
+    flex-flow: row nowrap;
+
+    .slide {
+        img {
+            width: 200px;
+        }
+    }
+}

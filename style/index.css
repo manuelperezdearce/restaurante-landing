@@ -1,3 +1,9 @@
+/* FILE: ./style/index.css */
+
+@import "./../components/Main.css";
+@import "./../views/About.css";
+@import "./../components/Slider.css";
+
 * {
     font-family: "Roboto", sans-serif;
     padding: 0px;
@@ -91,4 +97,8 @@ footer {
         margin-bottom: 16px;
     }
 
+}
+
+img {
+    display: block;
 }
