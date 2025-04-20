@@ -1,3 +1,5 @@
+// FILE: SectionMainNav.js
+
 class SectionMainNav extends HTMLElement {
     constructor() {
         super();
