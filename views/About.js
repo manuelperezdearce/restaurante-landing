@@ -22,10 +22,11 @@ export default function About() {
                     </p>
             </article>
             <article class="about-fotos-restaurante">
-                <img src="https://cdn-icons-png.flaticon.com/512/1996/1996068.png" alt="Logo del restaurante">
-                <img src="https://cdn-icons-png.flaticon.com/512/1996/1996068.png" alt="Logo del restaurante">
-                <img src="https://cdn-icons-png.flaticon.com/512/1996/1996068.png" alt="Logo del restaurante">
-                <img src="https://cdn-icons-png.flaticon.com/512/1996/1996068.png" alt="Logo del restaurante">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/c3/95/e8/capogrossi-cucina-bar.jpg?w=600&h=-1&s=1" alt="Logo del restaurante">
+                
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/c9/23/a0/40-suliko-restaurant.jpg?w=500&h=-1&s=1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9utWeXCrKYcVKlSxyk5sYEVKasaUwckxRCxBrEgNKd6NWlCUrrgnciCwbxthNvbUVRsw&usqp=CAU">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/56/61/58/la-mejor-terraza-en-el.jpg?w=600&h=-1&s=1">
             </article>
             <article class="max-width-800">
                 <h4>Dónde encontrarnos</h4>

@@ -12,7 +12,7 @@ export default function Login() {
                 <label for="password">Contraseña:</label>
                 <input type="password" id="password" name="password" required>
                 </div>
-                <button type="submit">Ingresar</button> 
+                <button class="primary-button" type="submit">Ingresar</button> 
                 <!-- <p>¿No tienes cuenta? <a href="/register">Regístrate aquí</a></p> -->
             </form>
             </section>

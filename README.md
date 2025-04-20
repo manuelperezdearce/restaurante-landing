@@ -1,3 +1,51 @@
+## Control 5 - Programación Web I
+
+**Tema:** Estilización avanzada de formularios y control de herencia en CSS  
+**Tecnologías:** HTML y CSS
+
+### Objetivos:
+- Mejorar visualmente los formularios de acceso y registro mediante reglas CSS.
+- Aplicar selectores CSS adecuados para distintos elementos de formulario.
+- Comprender la herencia y la cascada en CSS para lograr una presentación coherente.
+- Prevenir colisiones de estilos durante la construcción de la página web.
+
+### Requisitos Técnicos:
+- Código CSS claro, estructurado y comentado.
+- Uso correcto de selectores: etiqueta, clase, identificador y atributo.
+- Aplicación práctica de herencia, cascada y especificidad.
+- Estandarización visual en todo el sitio, con excepciones controladas.
+
+### Actividades a realizar:
+
+#### 1. Estilización de formularios (acceso y registro)
+- [x] Incluir fragmentos de código CSS dentro del HTML o como hoja externa para aplicar estilos a:
+  - Etiquetas `<label>` y campos `<input>`, `<select>`, `<textarea>`.
+- [x] Utilizar distintos tipos de selectores:
+  - **Selector de tipo** para aplicar estilo base a todos los `input`.
+  - **Selector de clase** para inputs específicos como `.form-control`.
+  - **Selector de ID** para secciones únicas como `#login-form`.
+  - **Selector de atributo** para dar estilo a elementos según su `type`, como `input[type="email"]`.
+- [x] Explicar la razón del uso de cada tipo de selector en función de su especificidad y reutilización.
+
+#### 2. Herencia y cascada en la sección “Quiénes somos”
+- [ ] Revisar el CSS aplicado a encabezados y párrafos de la sección.
+- [ ] Explicar cómo se aplican los conceptos de:
+  - **Herencia**: cómo ciertos estilos como `font-family` o `color` se transmiten.
+  - **Cascada**: cómo se resuelven conflictos entre reglas CSS según su origen y especificidad.
+- [ ] Especificar cómo estandarizar el diseño del sitio (por ejemplo, tipografía general) y cómo crear una excepción para la sección "Quiénes somos".
+- [ ] Incluir ejemplos de código para:
+  - Estilos generales heredables.
+  - Sobrescritura de estilos específicos mediante clases o ID en “Quiénes somos”.
+
+#### 3. Prevención de colisiones de estilos
+- [ ] Describir una técnica para evitar colisiones de estilos al trabajar con diferentes secciones (como formularios, tablas, listas, etc.).
+- [ ] Argumentar el uso de:
+  - **Nombres de clase específicos y contextualizados** (por ejemplo, `.form-login input`).
+  - **Encapsulamiento mediante estructuras de componentes o BEM**.
+  - **Uso del Scope o Shadow DOM en componentes web si aplica**.
+- [ ] Incluir fragmentos de CSS que muestren cómo evitar que una regla general afecte a un componente específico no deseado.
+
+
 ## Control 4 - Programación Web I
 
 **Tema:** Aplicación de estilos visuales con CSS  

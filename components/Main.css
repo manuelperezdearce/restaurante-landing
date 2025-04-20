@@ -25,15 +25,10 @@
         &>* {
             margin-block: 1rem;
             max-width: 500px;
-            width: 100%;
         }
     }
 
     label {
-        width: 100%
-    }
-
-    input {
         width: 100%
     }
 
