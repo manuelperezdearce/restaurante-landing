@@ -3,27 +3,22 @@ export default function Register() {
     <section class="container">
         <form class="form" id="register-form" action="/register" method="POST">
             <h2>Registrar</h2>
-
             <div class="form-group">
                 <label for="name">Nombre:</label>
                 <input type="text" id="name" name="name" required maxlength="50">
             </div>
-
             <div class="form-group">
                 <label for="lastname">Apellido:</label>
                 <input type="text" id="lastname" name="lastname" required maxlength="50">
             </div>
-
             <div class="form-group">
                 <label for="email">Correo Electrónico:</label>
                 <input type="email" id="email" name="email" required maxlength="100">
             </div>
-
             <div class="form-group">
                 <label for="telephone">Teléfono:</label>
                 <input type="tel" id="telephone" name="telephone" required pattern="[0-9]{9,15}" maxlength="15" placeholder="Ej: 912345678">
             </div>
-
             <div class="form-group">
                 <label for="dnitype">Tipo de Documento:</label>
                 <select id="dnitype" name="dnitype" required>
@@ -46,15 +41,19 @@ export default function Register() {
             </div>
 
             <div class="form-group">
-                <label>Género:</label><br>
-                <input type="radio" id="gender-male" name="gender" value="male" required>
-                <label for="gender-male">Masculino</label><br>
-
+                <label>Género:</label>
+                <div class="form-group-option">
+                 <input type="radio" id="gender-male" name="gender" value="male" required>
+                <label for="gender-male">Masculino</label>
+            </div>
+            <div class="form-group-option">
                 <input type="radio" id="gender-female" name="gender" value="female">
-                <label for="gender-female">Femenino</label><br>
-
+                <label for="gender-female">Femenino</label>
+            </div>
+            <div class="form-group-option">
                 <input type="radio" id="gender-other" name="gender" value="other">
                 <label for="gender-other">No binario / Prefiero no indicar</label>
+            </div>
             </div>
 
             <div class="form-group">
@@ -71,8 +70,8 @@ export default function Register() {
                 <label for="confirmpassword">Confirmar Contraseña:</label>
                 <input type="password" id="confirmpassword" name="confirmpassword" required minlength="6" maxlength="32">
             </div>
-
-            <button type="submit">Registrar</button>
+            
+            <button class="primary-button" type="submit">Registrar</button>
         </form>
     </section>
     `;

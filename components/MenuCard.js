@@ -1,3 +1,5 @@
+// FILE: components/MenuCard.js
+
 class MenuCard extends HTMLElement {
     constructor() {
         super();

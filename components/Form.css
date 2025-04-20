@@ -1,0 +1,49 @@
+/* FILE: ./components/Form.css */
+
+.form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.form-group {
+    display: flex;
+    flex-flow: column nowrap;
+
+    label {
+        margin-block: 0.5rem;
+    }
+
+    input {
+
+        height: 1.5rem;
+        padding: 0.2rem 1rem;
+        border-radius: 4rem;
+        border: 1px solid rgb(124, 124, 124);
+    }
+
+    textarea {
+        padding: 0.2rem 1rem;
+        border-radius: 1rem;
+        border: 1px solid rgb(124, 124, 124);
+    }
+
+    select {
+        height: 1.5rem;
+        padding: 0.2rem 1rem;
+        border-radius: 1rem;
+        border: 1px solid rgb(124, 124, 124);
+    }
+
+    .form-group-option {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-block: 0.5rem;
+
+        label {
+            margin-inline-start: 1rem;
+        }
+    }
+
+}
