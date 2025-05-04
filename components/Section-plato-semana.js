@@ -1,3 +1,4 @@
+// FILE: Section-plato-semana.js
 
 class platoSemana extends HTMLElement {
     constructor() {

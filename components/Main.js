@@ -1,3 +1,4 @@
+// FILE: components/Main.js
 import "./SectionCards.js";
 import "./SectionMainNav.js";
 import "./Section-tabla.js";

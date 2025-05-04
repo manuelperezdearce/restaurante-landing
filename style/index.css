@@ -1,10 +1,14 @@
 /* FILE: ./style/index.css */
 
 
-
+/* Components */
 @import "./../components/Main.css";
+@import "./../components/Header.css";
+@import "./../components/Footer.css";
 @import "./../components/Slider.css";
 @import "./../components/Form.css";
 @import "./../components/Button.css";
 @import "./../views/About.css";
+
+/* Default theme */
 @import "./default.css";

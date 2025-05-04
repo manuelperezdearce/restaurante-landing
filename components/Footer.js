@@ -1,31 +1,29 @@
+// FILE: components/Footer.js
 export default function Footer() {
     return `
-        <footer>
-        <section>
-            <article>
-                <h4>Quienes somos</h5>
+        <footer class="footer">
+            <section class=container-footer>
+                <article>
+                    <a class="a-logo" href="#/"><img src="https://cdn-icons-png.flaticon.com/512/1996/1996068.png" alt="Logo del restaurante"></a>
+                    <h1>Restaurante Rico & Sabroso</h1>
+                </article>
+                <article>
+                    <h4>Contacto</h4>
                     <p>
-                        En Restaurante Rico & Sabroso, celebramos con orgullo el sabor y la tradición de la cocina
-                        chilena. Somos un restaurante típico chileno dedicado a rescatar las recetas de antaño, los
-                        ingredientes locales y el calor de hogar que caracteriza nuestra mesa.
-
-                        Desde unas empanadas recién horneadas, pasando por un buen pastel de choclo o unas humitas
-                        caseras, hasta un enjundioso plato de cazuela o porotos granados, nuestro compromiso es ofrecer
-                        una experiencia auténtica, sabrosa y cargada de historia.
-
-                        Nos inspira el campo, la costa, la cordillera y cada rincón de Chile que aporta sabores únicos a
-                        nuestra cocina. Atendemos con cariño, como en casa, porque creemos que la comida chilena no solo
-                        se saborea: también se comparte.
-
-                        ¡Bienvenidos a nuestro rincón criollo!
-                    </p>
-            </article>
-            <article>
-                <h4>Dónde encontrarnos</h4>
-                <address>
-                    Av. Las Acacias 1234, Local 501, Providencia, Santiago, Chile. Código Postal: 7501234.
-                </address>
-            </article>
+                        Teléfono: +56 9 1234 5678<br>
+                        Email: ricoysabroso@restaurante.cl
+                        <h4>Dónde encontrarnos</h4>
+                    <address>
+                        Av. Las Acacias 1234, Local 501, Providencia, Santiago, Chile. Código Postal: 7501234.
+                    </address>
+                </article>
+               
+                <article>
+                    <h4>Desarrollador por</h5>
+                        <p>
+                            Manuel Pérez de Arce
+                        </p>
+                </article>
         </section>
     </footer>
     `;

@@ -1,3 +1,4 @@
+// FILE: Section-tabla.js
 
 class customSection extends HTMLElement {
     constructor() {
