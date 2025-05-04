@@ -1,3 +1,37 @@
+## Control 6 - Programación Web I
+
+**Tema:** Mejora de diseño web con modelo de cajas y posicionamiento en CSS  
+**Tecnologías:** HTML y CSS
+
+### Objetivos:
+- Corregir problemas de alineación y dimensionamiento de elementos en la página web.
+- Aplicar el modelo de cajas en CSS: márgenes, rellenos, bordes y contenido.
+- Estilizar encabezados, párrafos, listas y tablas para mejorar la legibilidad.
+- Posicionar elementos multimedia de forma coherente y atractiva.
+
+### Requisitos Técnicos:
+- Uso estructurado del modelo de cajas (box model).
+- Estilos aplicados a textos, listas y tablas mediante reglas CSS claras.
+- Técnicas de posicionamiento relativo y absoluto para elementos multimedia.
+- Coherencia visual entre secciones `header`, `main` y `footer`.
+
+### Actividades a realizar:
+
+#### 1. Ajustes de presentación en secciones principales (`header`, `main`, `footer`)
+- [x] Aplicar tamaño y color de fondo personalizado para cada sección.
+- [x] Establecer márgenes, rellenos y bordes con valores apropiados.
+- [x] Asegurar contraste y coherencia en la presentación.
+
+#### 2. Estilos tipográficos y visuales
+- [x] Cambiar la fuente y el tamaño de encabezados y párrafos.
+- [x] Aplicar estilos visuales a listas (promociones especiales).
+- [x] Estilizar tablas de platos, bebidas y postres para facilitar la lectura.
+
+#### 3. Posicionamiento y dimensionamiento de imágenes en la sección “Plato de la semana”
+- [x] Utilizar técnicas de posicionamiento (`relative`, `absolute`).
+- [x] Ajustar márgenes, rellenos y bordes de los elementos multimedia.
+- [x] Asegurar una disposición atractiva y alineada al contenido textual.
+
 ## Control 5 - Programación Web I
 
 **Tema:** Estilización avanzada de formularios y control de herencia en CSS  
@@ -26,25 +60,6 @@
   - **Selector de ID** para secciones únicas como `#login-form`.
   - **Selector de atributo** para dar estilo a elementos según su `type`, como `input[type="email"]`.
 - [x] Explicar la razón del uso de cada tipo de selector en función de su especificidad y reutilización.
-
-#### 2. Herencia y cascada en la sección “Quiénes somos”
-- [ ] Revisar el CSS aplicado a encabezados y párrafos de la sección.
-- [ ] Explicar cómo se aplican los conceptos de:
-  - **Herencia**: cómo ciertos estilos como `font-family` o `color` se transmiten.
-  - **Cascada**: cómo se resuelven conflictos entre reglas CSS según su origen y especificidad.
-- [ ] Especificar cómo estandarizar el diseño del sitio (por ejemplo, tipografía general) y cómo crear una excepción para la sección "Quiénes somos".
-- [ ] Incluir ejemplos de código para:
-  - Estilos generales heredables.
-  - Sobrescritura de estilos específicos mediante clases o ID en “Quiénes somos”.
-
-#### 3. Prevención de colisiones de estilos
-- [ ] Describir una técnica para evitar colisiones de estilos al trabajar con diferentes secciones (como formularios, tablas, listas, etc.).
-- [ ] Argumentar el uso de:
-  - **Nombres de clase específicos y contextualizados** (por ejemplo, `.form-login input`).
-  - **Encapsulamiento mediante estructuras de componentes o BEM**.
-  - **Uso del Scope o Shadow DOM en componentes web si aplica**.
-- [ ] Incluir fragmentos de CSS que muestren cómo evitar que una regla general afecte a un componente específico no deseado.
-
 
 ## Control 4 - Programación Web I
 
